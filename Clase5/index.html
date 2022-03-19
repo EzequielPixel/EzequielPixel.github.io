@@ -14,6 +14,7 @@
         </legend>
         
         <form action="../Clase4/index.html" method="post">
+
             <lable>Nombre *</lable>
             <input type="texto" name="nombre" placeholder="Ezequiel">
             <label>Apellido *</label>
@@ -74,6 +75,17 @@
                 </tr>
                 <tr>
                     <td>
+                        <label>Nacionalidad *</label><br>
+                        <select>
+                            <option value="argentina">argentina</option>
+                            <option value="chilena">chilena</option>
+                            <option value="uruguaya">uruguaya</option>
+                            <option value="brasilera">brasilera</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <label>Dirección de email *</label><br>
                         <input type="email" name="email" placeholder="abcdef@xyz.com">
                     </td>
@@ -81,6 +93,21 @@
                     <td>
                         <label>Nro de docuemnto *</label><br>
                         <input type="number" name="documento" min="4" max="8" placeholder="12345678">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Adherirse al newsletter</label>
+                        <input type="checkbox" name="adh" checked> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Casado</label>
+                        <span>Si</span>
+                            <input type="radio" name="casado" value="NO">
+                        <span>No</span>
+                            <input type="radio" name="casado" value="NO" checked>
                     </td>
                 </tr>
                 <tr>
