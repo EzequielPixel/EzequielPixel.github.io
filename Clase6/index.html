@@ -14,15 +14,50 @@
             <fieldset>
                 <legend>Alta de Usuario</legend>
 
-                <form action="AltaUsuario.html">
+                <form action="AltaUsuario.html" method="post">
+
                     <input type="file" name="Dni-Frente" required>
                     <input type="hidden" value="ValorOculto" name="CampoHidden">
                     <input type="url" name="url" required placeholder="ej.: http://midominio.com">
                     <input type="text" name="nombre" required placeholder="Ezequiel">
 
-                    <input type="text" required pattern="[0-9]">
-                    
-                    <input type="submit" value="Enviar">                                    
+                    <input type="text" pattern="[0-9]" placeholder="N&uacute;meros de 0 a 9" required>
+                    <br>
+                    <textarea name="Agrega lo que desees aquí" cols="50" rows="5" required></textarea>
+                    <br>
+
+                    <select name="Opciones Multiples" multiple required>
+                        <optgroup label="Animales">
+                            <option>León</option>
+                            <option>Tigre</option>
+                            <option>Puma</option>
+                        </optgroup>
+                        <optgroup label="Constelaciones">
+                            <option>Pleyades</option>
+                            <option>Orion</option>
+                            <option>Seus</option>
+                        </optgroup>
+                    </select>
+                    <br>
+
+                    <input list="Browsers">
+                    <datalist id="Browsers" name="ListBrowsers">
+                        <option>Firefox</option>
+                        <option>Opera</option>
+                        <option>Edge</option>
+                        <option>Chrome</option>
+                    </datalist>
+                    <br>
+
+                    <label for="buscar">Tipo Search</label>
+                    <input type="search" name="buscar" id="buscar">
+                    <br>
+                    <label for="text">Tipo Texto</label>
+                    <input type="text" name="texto" id="text">
+                    <br>
+
+                    <input type="submit" value="Enviar">
+
                 </form>
 
             </fieldset>
