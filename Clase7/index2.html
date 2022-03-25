@@ -14,41 +14,45 @@
     </style> -->
 
     <!-- Incluyo un archivo externo al HTML, de estilos CSS-->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 
 <body>
 <!-- Estilo inline del atributo Style: '<body style="background-color: blueviolet;">' -->
 <!-- El estilo inline predomina sobre el interno-->
-    <header>
+    <header class="header">
+        <img src="../simpson.jpg">
+        
         <!--Barra de navegación en el header de la página-->
         <!--"#" indica no acción.-->
-        <nav id="idnav">
+        <nav class="nav">
             <a class="links" href="#">Inicio</a>
             <a class="links" href="#">Nosotros</a>
             <a class="links" href="#">Acerca de ésta web</a>
             <a class="links" href="#">Seguinos en nuestras redes</a>
         </nav>
 
+        
+
     </header>
 
-    <main>
-        <section id="idsection">
+    <main class="container">
+        <section class="classsection">
             <h1>Titulo de la página</h1>
             <div>
 
             </div>
         </section>
-        <section>
+        <section class="classsection">
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus sint quibusdam ea dicta nesciunt repellat natus aut blanditiis provident corporis assumenda illo velit pariatur eaque id, consectetur culpa numquam aliquam.
             </p>
-            <ul>
+            <ul class="selectores">
                 <li>
                     <a href="#">Link 1</a>
                 </li>
                 <li>
-                    <a id="linkactive" href="#">Link 2</a>
+                    <a href="#">Link 2</a>
                 </li>
             </ul>
         </section>

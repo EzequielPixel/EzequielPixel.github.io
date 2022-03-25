@@ -6,6 +6,29 @@
 
 /* esta es la forma de abrir y cerrar un comentario de CSS, dentro del head */
 /* Uso interno del CSS */
-body{
-    background-color: blue;
+body {
+    background-color: gray;
+}
+
+/* aplicar style por id, usando #<id> */
+#idsection {
+    background-color: chartreuse;
+}
+
+#idnav {
+    background-color: ghostwhite;
+}
+
+#linkactive {
+    color: goldenrod;
+}
+
+/* aplicar style por class, usando .<nombre-de-la-class> */
+.links {
+    color: red;
+}
+
+/* selector por etiqueta */
+a {
+    text-decoration: none;
 }

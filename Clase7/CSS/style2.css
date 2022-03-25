@@ -1,0 +1,27 @@
+/* *{
+    background-color: brown;
+}
+*/
+
+
+/* esta es la forma de abrir y cerrar un comentario de CSS, dentro del head */
+/* Uso interno del CSS */
+body {
+    background-color: gray;
+}
+
+.header{
+    background-color: darkslateblue;
+}
+.container {
+    background-color: red;
+}
+
+.classsection{
+    background-color: darksalmon;
+}
+
+.selectores{
+    font-size: 20px;
+}
+
