@@ -1,0 +1,47 @@
+/* tercer forma de vincular fuentes de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+h1{
+    /*tamaño de letra*/
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h1{
+    cursor: pointer;
+}
+
+/*h2{
+    font-family: 'Roboto Slab', serif;
+}*/
+
+/*.link{
+    list-style: circle;
+}*/
+
+/*.link a{
+    text-decoration: none;
+    font-size: 30px;
+    font-style: oblique;
+}*/
+
+/*#nosotros{
+    font-family: 'Roboto Slab', serif;
+}*/
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul li{
+    list-style: circle;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-style: oblique;
+}
