@@ -69,4 +69,21 @@ h3{
 
 section table{
     border: 2px solid black;
+    border-left: 2px solid orange;
+    border-right: 2px solid red;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid green;
+}
+
+section table td{
+    border-left: 3px solid red;
+    border-top: 3px solid green;
+    border-right: 3px solid orange;
+    border-bottom: 3px solid blue;
+}
+section table th{
+    border-top: 6px dotted palevioletred;
+    border-bottom: 6px dotted violet;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
