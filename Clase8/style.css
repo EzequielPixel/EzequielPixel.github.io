@@ -1,6 +1,7 @@
 /* tercer forma de vincular fuentes de fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
 
+
 h1{
     /*tamaño de letra*/
     font-size: 45px;
@@ -35,6 +36,10 @@ h1{
     font-family: 'Roboto Slab', serif;
 }
 
+nav ul{
+    color: rgb(255, 81, 0);
+}
+
 nav ul li{
     list-style: circle;
     
@@ -44,4 +49,24 @@ nav ul li a{
     text-decoration: none;
     font-size: 30px;
     font-style: oblique;
+}
+
+/* propiedades de texto */
+.text-right {
+    letter-spacing: 3px;
+    text-align: justify;
+    word-spacing: 8px;
+    text-transform: capitalize;
+    text-decoration:line-through;
+    text-decoration-color: rgb(139, 0, 109);
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px royalblue; /* lateral-abajo-color */
+    font-weight: 900;
+}
+
+section table{
+    border: 2px solid black;
 }
