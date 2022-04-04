@@ -1,0 +1,4 @@
+Agregar estilos para que los th tengan distintos colores de bordes
+
+Investiga
+Agregar un favicon al html 
