@@ -11,14 +11,29 @@
             margin: 0px;
         }
 
-        div {
+        .divbox {
             margin: 15px 25px;
             border: 2px solid navy; 
             padding: 25px 10px;
-            width: 500px;
+            width: 45%;
             /*box-sizing: border-box, el navegador calcula el tamaño de la caja*/
             /*que contiene el txt en función del width*/
             box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+        }
+        /*especificidad*/
+        h3{
+            color: brown;
+        }
+
+        #sec1{
+            color: chartreuse;
+        }
+        .sec2{
+            /*text-align: center;*/
+            margin: 0 auto;
+            width: 250px;
         }
 
     </style>
@@ -27,10 +42,23 @@
 <body>
     <main>
         <section>
-            <div>
-                <p>texto</p>
+            <div class="divbox">
+                <h1>texto</h1>
+            </div>
+            <div class="divbox">
+                <h2>Sub Titulo</h2>
             </div>
         </section>
+        <!--especificidad-->
+        <!--El orden de precedencia es:
+        1- !important
+        2- style inline
+        3- selector id (#sec1)
+        4- selector de itiqueta (h3) -->
+        <section class="sec2">
+            <h3 id="sec1" style="color: blueviolet;">Sub Titulo 2</h3>
+
+        </section> 
     </main>
 </body>
 </html>
