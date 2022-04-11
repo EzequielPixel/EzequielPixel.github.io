@@ -36,11 +36,74 @@
             width: 250px;
         }
 
+        /* Medidas
+            Absolutas: 1px = .26 mm
+                        mm
+                        cm
+                        pt = .35 mm
+            Relativas:
+                        em: si un div=10px => 2em=20px
+                        rem: root element <HTML> 16 px
+                    felxibles:  vw = viewport width (ancho de tamaño que me ofrece el soporte done corre el navegador)
+                                vh = viewport height (idem anterior pero de alto)
+        */
+        .medidas{
+            font-size: 22px;
+        }
+        .medidas h3{
+            font-size: 3em;
+        }
+        .medidas p{
+            font-size: 1.5em;
+        }
+        .foto{
+            width: 35cm;
+            height: 20cm;
+        }
+        .cuadrado{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            left: 100px;
+            top: 100px;
+            /*position: fixed;
+            top: 40px;
+            left: 60px;*/
+        }
+        .circulo{
+            background: navy;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            border-radius: 100px;
+            top: 25%;
+            left: 25%;
+        }
+        .fijo{
+            width: 400px;
+            height: 400px;
+            left: 200px;
+            background-color: aquamarine;
+            position: fixed;
+        }
     </style>
 </head>
 
 <body>
     <main>
+        <section>
+            <div class="fijo">
+                <div class="cuadrado">
+                    <ul>
+                        <li>Inside Box</li>
+                    </ul>
+                    <div class="circulo">          
+                </div>
+            </div>
+        </section>
+
+        </div>
         <section>
             <div class="divbox">
                 <h1>texto</h1>
@@ -52,13 +115,21 @@
         <!--especificidad-->
         <!--El orden de precedencia es:
         1- !important
-        2- style inline
+        2- style inline (style)
         3- selector id (#sec1)
         4- selector de itiqueta (h3) -->
         <section class="sec2">
             <h3 id="sec1" style="color: blueviolet;">Sub Titulo 2</h3>
+        </section>
 
-        </section> 
+        <section class="medidas">
+            <h3>texto en h3</h3>
+            <p>texto en section</p>
+        </section>
+
+        <section class="foto">
+            <img src="CordobaAlcazarRealFuentesCont.jpg" class="foto">
+        </section>
     </main>
 </body>
 </html>
