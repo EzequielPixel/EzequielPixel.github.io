@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*@import url() agregar estilos de fuentes externas*/
+        h1::before{
+            content: '#';
+        }
+        h1::after{
+            content: '@';
+        }
+        h1{
+            color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: lowercase;
+        }
+        h2::first-letter{
+            border: 3px solid red;
+        }
+        section p.clasep{
+            font-style: italc;
+        }
+        section p.clasep::before{
+            content: '--';
+        }
+        section p.clasep::after{
+            content: '--';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html"> Volver</a>
+        </header>
+        <section>
+            <h1>Pseudo Elementos</h1>
+            <h2>Subtitulo</h2>
+            <p class="clasep">texto absurdo</p>
+        </section>
+    </main>
+</body>
+</html>

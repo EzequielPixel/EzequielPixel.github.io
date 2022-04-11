@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*pseudo clases */
+        a:visited{
+            color: greenyellow;
+        }
+        /* pasar mouse por arriba del link*/
+        a:hover{
+            color: blueviolet;
+            font-size: 18px;
+            text-decoration: line-through;
+        }
+        /*a:active*/
+        a:active{
+            color: black;
+            text-transform: uppercase;
+        }
+
+        /*nth-child(n)*/
+        div p:nth-child(1){
+            color: chartreuse;
+            font-size: 2em;
+        }
+        div p:nth-child(even){
+            color: red;
+            font-size: 2em;
+        }
+
+        table tr:nth-child(odd){
+            color: darkorange;
+            font-size: 18px;
+            background-color: brown;
+        }
+        table tr:nth-child(even){
+            color:blue;
+            font-size: 18px;
+        }
+        /* Especificidad*/
+        .titulos{
+            background-color: beige !important;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Titulo de la página</h1>
+        <section>
+            <p>Texto 1</p>
+            <a href="http://www.google.com"> Ir a google</a>
+            <a href="http://www.twitter.com"> Ir a twitter</a>
+            <a href="http://www.facebook.com"> Ir a facebook</a>
+            <a href="pseudoelementos.html"> Ir a Pseudo Elementos</a>
+            <a href="selectorporatr.html"> Selector por Atributos</a>
+        </section>
+
+        <section>
+            <div>
+                <p>texto 1</p>
+                <p>texto 2</p>
+                <p>texto 3</p>
+                <p>texto 4</p>
+                <p>texto 5</p>
+                <p>texto 6</p>
+            </div>
+
+            <table>
+                <tr class="titulos">
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Procedencia</th>
+                </tr>
+                <tr class="registros">
+                    <td>1</th>
+                    <td>Mate</td>
+                    <td>$2350</td>
+                    <td>Cordoba</td>
+                </tr>
+                <tr class="registros">
+                    <td>2</th>
+                    <td>Mate</td>
+                    <td>$2350</td>
+                    <td>Entre Rios</td>
+                </tr>
+                <tr class="registros">
+                    <td>3</th>
+                    <td>Mate</td>
+                    <td>$2350</td>
+                    <td>La Pampa</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>
