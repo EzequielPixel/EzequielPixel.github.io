@@ -7,18 +7,24 @@
     <title>Trabajo Practico Integrador</title>
     <style>
         .card-img{
-            filter: brightness(55%);
+            filter: brightness(50%);
         }
-        #card-izq{
+
+        #border-card-spacer{
             border-color: white;
         }
+        .titulo{
+            text-align: center;
+        }
+       
     </style>
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
     <main>
-        <section class="container">
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-fluid">
                     <div class="card bg-dark text-white">
@@ -28,49 +34,93 @@
                         <img class="card-img" src="./img/ba1.jpg" alt="Edifiio Aguas">   
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card" id="card-izq">
+        </section>
+
+        <section class="titulo">
+            <br>
+            <span>CONOCE A LOS</span>
+            <h4>ORADORES</h4>
+            <br>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-1">
+                    <div class="card" id="border-card-spacer">
                         <div class="card-body"></div>
                   </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="/EzequielPixel.github.io/TrabajoPracticoIntegrador/img/steve.jpg" class="card-img-top" alt="HTML5">
+                        <img src="./img/steve.jpg" class="card-img-top" alt="Steve Jobs">
                         <div class="card-body">
-                          <h5 class="card-title">Titulo 1</h5>
-                          <p class="card-text">Contenido del Card.</p>
-                          <h6>Ultima Actualizacion 1</h6>
+                          <p class="card-text fw-bold"  style="margin-bottom: 0px;"><span class="bg-warning small">&nbsp;JavaScript&nbsp;</span>
+                          <span class="bg-success text-white small">&nbsp;React&nbsp;</span> </p>
+                          <p class="card-text fw-bold">Steve Jobs</p>
+                          <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
                       </div>
                   </div>
                   <div class="col">
                     <div class="card">
-                        <img src="/EzequielPixel.github.io/TrabajoPracticoIntegrador/img/bill.jpg" class="card-img-top" alt="CSS">
+                        <img src="./img/bill.jpg" class="card-img-top" alt="Bill Gates">
                         <div class="card-body">
-                          <h5 class="card-title">Titulo 2</h5>
-                          <p class="card-text">Contenido del Card.</p>
-                          <h6>Ultima Actualizacion 1</h6>
+                            <p class="card-text fw-bold"  style="margin-bottom: 0px;"><span class="bg-warning small">&nbsp;JavaScript&nbsp;</span>
+                            <span class="bg-success text-white small">&nbsp;React&nbsp;</span> </p>
+                          <p class="card-text fw-bold">Bill Gates</p>
+                          <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
                       </div>
                   </div>
                   <div class="col">
                     <div class="card">
-                        <img src="/EzequielPixel.github.io/TrabajoPracticoIntegrador/img/ada.jpeg" class="card-img-top" alt="Boostrap">
+                        <img src="./img/ada.jpeg" class="card-img-top" alt="Ada">
                         <div class="card-body">
-                          <h5 class="card-title">Titulo 3</h5>
-                          <p class="card-text">Contenido del Card.</p>
-                          <h6>Ultima Actualizacion 1</h6>
+                            <p id="mt-0" class="card-text fw-bold" style="margin-bottom: 0px;"><span class="bg-secondary text-white small">&nbsp;Negocios&nbsp;</span>
+                            <span class="bg-danger text-white small">&nbsp;Startups&nbsp;</span></p>
+                          <p  class="card-text fw-bold">Ada Loveloce</p>
+                          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
                       </div>
                   </div>
-                  <div class="col">
-                    <div class="card" id="card-izq">
+                  <div class="col-1">
+                    <div class="card" id="border-card-spacer">
                         <div class="card-body" ></div>
                   </div>
                 </div>
             </div>
         </section>
+        <section class="conteiner">
+            <!--<div class="row">
+                <div class="col">-->
+                    <div class="card mt-3 mb-3">
+                        <div class="row g-1">
+                            <div class="col-md-4">
+                                <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
+                            </div>
+                            <div class="col-md-6" style="background-color: dimgray;">
+                                <div class="card-body">
+                                    <h2 class="card-title text-white">Bs. As. Octubre</h2>
+                                    <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
+                                        Honolulo es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honululu se refiere 
+                                        al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honululu han formado una ciudad condado
+                                        consolidada qe cubre la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+                                    </p>    
+                                    <button type="button" class="btn btn-info btn-light text-white" style="background-color: dimgray;">Conoce más</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--</div>
+            </div>-->
+        </section>
 
+        <section class="titulo">
+            <span><small>CONVERTITE EN UN</small></span>
+            <h2>ORADOR</h2>
+            <br>
+            <p>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!</p>
+        </section>
 
     </main>
     <!-- JavaScript Bundle with Popper -->
