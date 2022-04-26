@@ -16,6 +16,15 @@
         .titulo{
             text-align: center;
         }
+        #TituloCharla{
+            text-decoration-color: dimgray;
+        }
+        #gradiente{
+            background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
+        }
+        #light-green{
+            background-color: rgb(150,201,62);
+        }
        
     </style>
 
@@ -24,7 +33,7 @@
 </head>
 <body>
     <main>
-        <section class="container-fluid">
+        <section class="container">
             <div class="row">
                 <div class="col-fluid">
                     <div class="card bg-dark text-white">
@@ -45,7 +54,7 @@
 
         <section class="container">
             <div class="row">
-                <div class="col-1">
+                <div class="col-2">
                     <div class="card" id="border-card-spacer">
                         <div class="card-body"></div>
                   </div>
@@ -55,7 +64,7 @@
                         <img src="./img/steve.jpg" class="card-img-top" alt="Steve Jobs">
                         <div class="card-body">
                           <p class="card-text fw-bold"  style="margin-bottom: 0px;"><span class="bg-warning small">&nbsp;JavaScript&nbsp;</span>
-                          <span class="bg-success text-white small">&nbsp;React&nbsp;</span> </p>
+                          <span class="bg-success text-white small">&nbsp;React&nbsp;</span></p>
                           <p class="card-text fw-bold">Steve Jobs</p>
                           <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
@@ -83,7 +92,7 @@
                         </div>
                       </div>
                   </div>
-                  <div class="col-1">
+                  <div class="col-2">
                     <div class="card" id="border-card-spacer">
                         <div class="card-body" ></div>
                   </div>
@@ -91,37 +100,78 @@
             </div>
         </section>
         <section class="conteiner">
-            <!--<div class="row">
-                <div class="col">-->
-                    <div class="card mt-3 mb-3">
-                        <div class="row g-1">
-                            <div class="col-md-4">
-                                <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
-                            </div>
-                            <div class="col-md-6" style="background-color: dimgray;">
-                                <div class="card-body">
-                                    <h2 class="card-title text-white">Bs. As. Octubre</h2>
-                                    <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
-                                        Honolulo es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honululu se refiere 
-                                        al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honululu han formado una ciudad condado
-                                        consolidada qe cubre la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
-                                    </p>    
-                                    <button type="button" class="btn btn-info btn-light text-white" style="background-color: dimgray;">Conoce más</button>
-                                </div>
-                            </div>
+            <div class="card mt-3 mb-4">
+                <div class="row g-1">
+                    <div class="col-2">
+                        <div class="card" id="border-card-spacer">
+                            <div class="card-body"></div>
                         </div>
                     </div>
-                <!--</div>
-            </div>-->
+                    <div class="col-4">
+                        <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
+                    </div>
+                    <div class="col-4" style="background-color: dimgray;">
+                        <div class="card-body">
+                            <h2 class="card-title text-white">Bs. As. Octubre</h2>
+                            <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
+                            Honolulo es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honululu se refiere 
+                            al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honululu han formado una ciudad condado
+                            consolidada qe cubre la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+                            </p>    
+                            <button type="button" class="btn btn-info btn-light text-white" style="background-color: dimgray;">Conoce más</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card" id="border-card-spacer">
+                            <div class="card-body"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="titulo">
-            <span><small>CONVERTITE EN UN</small></span>
-            <h2>ORADOR</h2>
-            <br>
-            <p>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!</p>
+        <section class="conteiner">
+            <div class="row">
+                <div class="col-md-4 mx-auto text-center">
+                    <span><small>CONVERTITE EN UN</small></span>
+                    <h2>ORADOR</h2>
+                    <br>
+                    <p>Anótate como orador para dar una <u>charla ignite.</u>Cuéntanos de qué quieres hablar!</p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-5 mx-auto">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        &nbsp;&nbsp;
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">  
+                    </div>
+                    <div class="mt-3">
+                        <textarea class="form-control" id="TituloCharla" placeholder="Sobre qué queres hablar?" rows="5"></textarea>
+                        <label for="TituloCharla" class="form-label"><span style="color: dimgray;">Recuerda incluir un título para tu charla</span></label>
+                    </div>
+                        
+                    <div class="col mx-auto mt-3 d-grid gap-2" id="light-green">
+                        <button class="btn" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div>  
         </section>
-
+        <footer>
+            <div class="container">
+                <div class="row mt-3" id="gradiente">
+                    <div class="col text-center">
+                        <a class="btn text-white" href="#" role="button">Preguntar<br>Frecuentes</a>
+                        <a class="btn text-white" href="#" role="button">Contáctanos</a>
+                        <a class="btn text-white" href="#" role="button">Prensa</a>
+                        <a class="btn text-white" href="#" role="button">Conferencias</a>
+                        <a class="btn text-white" href="#" role="button">Términos y<br>Condiciones</a>
+                        <a class="btn text-white" href="#" role="button">Privacidad</a>
+                        <a class="btn text-white" href="#" role="button">Estudiantes</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
