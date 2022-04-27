@@ -19,13 +19,14 @@
         #TituloCharla{
             text-decoration-color: dimgray;
         }
-        #gradiente{
-            background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
-        }
         #light-green{
             background-color: rgb(150,201,62);
         }
-       
+        .fotr-prop{
+            background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
+            text-align: center;
+        }
+        
     </style>
 
     <!-- CSS only -->
@@ -36,11 +37,11 @@
         <section class="container">
             <div class="row">
                 <div class="col-fluid">
-                    <div class="card bg-dark text-white">
-                        <div class="card-image-overley">
-                            <h5 class="card-title">HOLA</h5>
-                        </div>
-                        <img class="card-img" src="./img/ba1.jpg" alt="Edifiio Aguas">   
+                    <div><img class="card-img" src="./img/ba1.jpg" alt="Edifiio Aguas"></div>
+                    <div class="bg-dark text-white">
+                        <h5 class="overley-text">HOLA</h5>
+                    </div>
+                       <!---<img class="card-img" src="./img/ba1.jpg" alt="Edifiio Aguas">   -->
                     </div>
                 </div>
         </section>
@@ -99,18 +100,20 @@
                 </div>
             </div>
         </section>
+
         <section class="conteiner">
-            <div class="card mt-3 mb-4">
-                <div class="row g-1">
-                    <div class="col-2">
+            <div class="row mt-3">
+                    <!--<div class="col-2">
                         <div class="card" id="border-card-spacer">
                             <div class="card-body"></div>
                         </div>
-                    </div>
-                    <div class="col-4">
+                    </div>-->
+                    <div class="col-4 offset-md-2">
+                        <div class="card body">
                         <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
+                        </div>
                     </div>
-                    <div class="col-4" style="background-color: dimgray;">
+                    <div class="col-4 offset-md-0" style="background-color: dimgray;">
                         <div class="card-body">
                             <h2 class="card-title text-white">Bs. As. Octubre</h2>
                             <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
@@ -121,11 +124,11 @@
                             <button type="button" class="btn btn-info btn-light text-white" style="background-color: dimgray;">Conoce más</button>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <!--<div class="col-2">
                         <div class="card" id="border-card-spacer">
                             <div class="card-body"></div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
@@ -151,17 +154,17 @@
                         <label for="TituloCharla" class="form-label"><span style="color: dimgray;">Recuerda incluir un título para tu charla</span></label>
                     </div>
                         
-                    <div class="col mx-auto mt-3 d-grid gap-2" id="light-green">
-                        <button class="btn" type="submit">Enviar</button>
+                    <div class="col mx-auto mt-4 d-grid" id="light-green">
+                        <button class="btn text-white" type="submit">Enviar</button>
                     </div>
                 </div>
             </div>  
         </section>
         <footer>
             <div class="container">
-                <div class="row mt-3" id="gradiente">
-                    <div class="col text-center">
-                        <a class="btn text-white" href="#" role="button">Preguntar<br>Frecuentes</a>
+                <div class="row mt-4">
+                    <div class="col fotr-prop">
+                        <a class="btn text-white" href="#" role="button">Preguntas<br>Frecuentes</a>
                         <a class="btn text-white" href="#" role="button">Contáctanos</a>
                         <a class="btn text-white" href="#" role="button">Prensa</a>
                         <a class="btn text-white" href="#" role="button">Conferencias</a>
