@@ -5,159 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Practico Integrador</title>
-    <style>
-        .card-img{
-            filter: brightness(50%);
-        }
-        .titulo{
-            text-align: center;
-        }
-        #TituloCharla{
-            text-decoration-color: dimgray;
-        }
-        #light-green{
-            background-color: rgb(150,201,62);
-        }
-        .card-footer{
-            background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
-            text-align: center;
-            text-decoration: none;
-            display: block;
-        }
-        
-        .ba-img{
-            background-image: url(./img/ba1.jpg);
-            min-height: 670px;
-            background-position: top center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            filter: brightness(75%);
-        }
-        .topnav{
-            background-color: rgb(53,58,64);
-            text-decoration: none;
-            min-height: 80px;
-            /*list-style: none;*/
-            padding: 0px;
-        }
 
-        .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            /*padding-top: 30px;*/
-            /*padding: 60px 20px;*/
-            text-decoration: none;
-            font-size: 17px;
-        }
-<<<<<<< HEAD
-        .nav{
-            background-color: rgb(53,58,64);
-            margin: auto;
-            overflow: auto;
-        }
-        ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            justify-content:first baseline;
-        }
-        li{
-            float: right;
-        }
-        a:link{
-            color: white;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-            padding: 15px;
-            font-size: 14px;
-            min-height: 80px;
-        }
-        #btm-link{
-=======
-       ul{
-           margin: 0;
-           padding: 0;
-           list-style: none;
-       }
-       li{
-           float: right;
-       }
-      #top-link{
->>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
-           color: white;
-           text-decoration: none;
-           display: block;
-           text-align: center;
-           padding: 30px;
-           font-size: 12px;
-       }
-<<<<<<< HEAD
-  
-=======
-        
->>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
-    </style>
+    <!-- Link a hoja de stilos de css-->
+    <link rel="stylesheet" href="./style.css">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
-    <header>
-    <section class="container">
-        <div class="row">
-            <div class="col">
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">Hola</a></li>
-                        <li><a href="#">Hola</a></li>
-                        <li><a href="#">Hola</a></li>
-                        <li><a class="navbar-brand"><img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
-                        Conf Bs AS</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="ba-img img-fluid"></div>
-            </div>
-        </div>
-        </section>
-    </header>        
-    
     <main>
-        
-       <!-- <div class="nav">
-            <ul>
-                <li>
-                    <a href="#">Hola</a>
-                </li>
-                <li>
-                    <a href="#">Hola</a>
-                </li>
-                <li>
-                    <a href="#">Hola</a>
-                </li>
-            </ul>
-        </div>-->
-       <!-- <header>
-        <section class="container">
-            <div class="ba-img img-fluid">
-                <div class="topnav">
-                    <a class="navbar-brand">
-                        <img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
-                        Conf Bs AS
-                    </a>
-                    <ul>
-                        <li id="top-link"><a href="#Oradores">Los Oradores</a></li>
-                        <li id="top-link"><a href="#LugarFecha">El lugar y La fecha</a></li>
-                        <li id="top-link"><a href="#ConvertiteOrador">Convíertete en Orador</a></li>
-                        <li id="top-link"><a href="#TicketsS1">Comprar Tickets</a></li>
-                        <li id="top-link"><a href="#ConfBA">La Conferencia</a></li>
-                    </ul>
-            </div>
-        </section>
-    </header>-->
+        <header>
+            <section class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="nav">
+                            <ul>
+                                <li><a id="top-link-green" href="#TicketsS1">Comprar Tickets</a></li>                                
+                                <li><a id="top-link" href="#ConvertiteOrador">Convíertete en Orador</a></li>
+                                <li><a id="top-link" href="#LugarFecha">El lugar y La fecha</a></li>
+                                <li><a id="top-link" href="#Oradores">Los Oradores</a></li>                                
+                                <li><a id="top-link" href="#ConfBA">La Conferencia</a></li>
+                                <li><a class="navbar-brand"><img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
+                                    <span style="font-size: 25px;">Conf Bs AS</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="ba-img"></div>
+                <div class="TextoSobreImagen">
+                    <h1>Conf Bs As</h1> 
+                    <h6>Bs As llega por primera vez a Argentina. Un evento para compartir con</h6>
+                    <h6>nuestra comunidad el conocimiento y experiencia de los expertos que</h6>
+                    <h6>están creando el futuro de internet. Ve a conocer a miemnbros del</h6>
+                    <h6>evento, otros estudiantes de Codo a Codo y los oradores de primer</h6>
+                    <h6>nivel que tenemos para ti. Te esperamos!</h6>
+                    <a class="btn btn-link btn-outline-light text-white mt-4 text" style="text-decoration: none;" href="#QuieroSerOrador">Quiero ser oreador</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="btn btn-link btn-outline-success btn-success text-white mt-4" style="text-decoration: none;" href="#ComprarTickets">Comprar tickets</a>
+                </div>                
+            </section>
+        </header>
         <section class="titulo">
             <br>
             <span>CONOCE A LOS</span>
@@ -166,8 +55,8 @@
         </section>
 
         <section class="container">
-            <div class="row">
-                <div class="col-3 offset-md-2">
+            <div class="row justify-content-center">
+                <div class="col-3">
                     <div class="card">
                         <img src="./img/steve.jpg" class="card-img-top" alt="Steve Jobs">
                         <div class="card-body">
@@ -196,7 +85,7 @@
                             <p id="mt-0" class="card-text fw-bold" style="margin-bottom: 0px;"><span class="bg-secondary text-white small">&nbsp;Negocios&nbsp;</span>
                             <span class="bg-danger text-white small">&nbsp;Startups&nbsp;</span></p>
                           <p class="card-text fw-bold">Ada Loveloce</p>
-                          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
+                          <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
                       </div>
                   </div>
@@ -209,13 +98,13 @@
                         <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
                     </div>
                     <div class="col-4" style="background-color: rgb(53,58,64);">
-                            <h2 class="card-title text-white">Bs. As. Octubre</h2>
-                            <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
+                            <h2 class="card-title text-white mt-1 mx-2">Bs. As. Octubre</h2>
+                            <p class="card-text text-white mx-2">Buenos Aires es la provincia y localidad más grande del estado de Argentina, En los Estados Unidos.
                             Honolulo es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honululu se refiere 
                             al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honululu han formado una ciudad condado
                             consolidada qe cubre la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
                             </p>    
-                            <button type="button" class="btn btn-info btn-light text-white" style="background-color: rgb(53,58,64);">Conoce más</button>
+                            <button type="button" class="btn btn-info btn-light text-white mx-2" style="background-color: rgb(53,58,64);">Conoce más</button>
                     </div>
             </div>
         </section>
@@ -248,29 +137,19 @@
             </div>  
         </section>
         <footer>
-            <div class="container">
-                <div class="row mt-4">
-<<<<<<< HEAD
-                    <div class="col fotr-prop">
-                        <a id="btm-link" class="btn text-white" href="#PreguntasFrecuente" role="button">Preguntas<br>Frecuentes &nbsp;</a>
-                        <a id="btm-link" class="btn text-white" href="#Contactanos" role="button">Contáctanos</a>
-                        <a id="btm-link" class="btn text-white" href="#Prensa" role="button">Prensa</a>
-                        <a id="btm-link" class="btn text-white" href="#Conferencias" role="button">Conferencias</a>
-                        <a id="btm-link" class="btn text-white" href="#TerminosCondiciones" role="button">Términos y<br>Condiciones</a>
-                        <a id="btm-link" class="btn text-white" href="#Privacidad" role="button">Privacidad</a>
-                        <a id="btm-link" class="btn text-white" href="#Estudiantes" role="button">Estudiantes</a>
-=======
-                    <div class="col card-footer fotr-prop">
-                        <a class="btn text-white font-size 5px" href="#PreguntasFrecuente">Preguntas<br>Frecuentes &nbsp;</a>
-                        <a class="btn text-white" href="#Contactanos" role="button">Contáctanos</a>
-                        <a class="btn text-white" href="#Prensa" role="button">Prensa</a>
-                        <a class="btn text-white" href="#Conferencias" role="button">Conferencias</a>
-                        <a class="btn text-white" href="#TerminosCondiciones" role="button">Términos y<br>Condiciones</a>
-                        <a class="btn text-white" href="#Privacidad" role="button">Privacidad</a>
-                        <a class="btn text-white" href="#Estudiantes" role="button">Estudiantes</a>
->>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
+           <div class="container mt-4">
+                 <!--<div class="row mt-4">
+                    <div class="col card-footer fotr-prop">-->
+                    <div class="card-footer fotr-prop">
+                        <a class="btn text-white font-size 5px" href="#PreguntasFrecuente">Preguntas<br>Frecuentes</a>
+                        <a class="btn text-white" href="#Contactanos">Contáctanos</a>
+                        <a class="btn text-white" href="#Prensa">Prensa</a>
+                        <a class="btn text-white" href="#Conferencias">Conferencias</a>
+                        <a class="btn text-white" href="#TerminosCondiciones">Términos y<br>Condiciones</a>
+                        <a class="btn text-white" href="#Privacidad">Privacidad</a>
+                        <a class="btn text-white" href="#Estudiantes">Estudiantes</a>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
         </footer>
     </main>

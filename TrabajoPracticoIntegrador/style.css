@@ -1,0 +1,81 @@
+.nav{
+    background-color: rgb(53,58,64);
+    margin: auto;
+    overflow: auto;
+    min-height: 80px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+
+.navbar-brand{
+    color: white;
+    padding: 80px;
+    padding-bottom: 90px;
+}
+
+#top-link-green{
+    color: rgb(69,140,88);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    min-height: 20px;
+}
+
+#top-link{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    min-height: 20px;
+} 
+
+.ba-img{
+    background-image: url(./img/ba1.jpg);
+    min-height: 690px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(65%);
+}
+
+.TextoSobreImagen { 
+    position: absolute; 
+    top: 36%; 
+    left: 51%;
+    color: white;
+    text-align-last: right;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#TituloCharla{
+    text-decoration-color: dimgray;
+}
+
+#light-green{
+    background-color: rgb(150,201,62);
+}
+
+.card-footer{
+    background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
+    text-align-last: center;
+    text-decoration: none;
+    display: block;
+}
+
+
