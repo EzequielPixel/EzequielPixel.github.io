@@ -18,10 +18,13 @@
         #light-green{
             background-color: rgb(150,201,62);
         }
-        .fotr-prop{
+        .card-footer{
             background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
             text-align: center;
+            text-decoration: none;
+            display: block;
         }
+        
         .ba-img{
             background-image: url(./img/ba1.jpg);
             min-height: 670px;
@@ -34,17 +37,21 @@
         .topnav{
             background-color: rgb(53,58,64);
             text-decoration: none;
-            min-height: 100px;
+            min-height: 80px;
+            /*list-style: none;*/
+            padding: 0px;
         }
 
         .topnav a {
             float: left;
             color: #f2f2f2;
             text-align: center;
-            padding: 60px 20px;
+            /*padding-top: 30px;*/
+            /*padding: 60px 20px;*/
             text-decoration: none;
             font-size: 17px;
         }
+<<<<<<< HEAD
         .nav{
             background-color: rgb(53,58,64);
             margin: auto;
@@ -69,6 +76,17 @@
             min-height: 80px;
         }
         #btm-link{
+=======
+       ul{
+           margin: 0;
+           padding: 0;
+           list-style: none;
+       }
+       li{
+           float: right;
+       }
+      #top-link{
+>>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
            color: white;
            text-decoration: none;
            display: block;
@@ -76,7 +94,11 @@
            padding: 30px;
            font-size: 12px;
        }
+<<<<<<< HEAD
   
+=======
+        
+>>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
     </style>
 
     <!-- CSS only -->
@@ -122,26 +144,16 @@
         <section class="container">
             <div class="ba-img img-fluid">
                 <div class="topnav">
-                    <a class="navbar-brand text-white">
+                    <a class="navbar-brand">
                         <img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
                         Conf Bs AS
                     </a>
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a href="#ConfBA" class="nav-link">La Conferencia</a> 
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Oradores" class="nav-link" aria-current="page">Los Oradores</a>   
-                        </li>
-                        <li class="nav-item">
-                            <a href="#LugarFecha" class="nav-link" aria-current="page">El lugar y La fecha</a>   
-                        </li>
-                        <li class="nav-item">
-                            <a href="#ConvertiteOrador" class="nav-link" aria-current="page">Convíertete en Orador</a>   
-                        </li>
-                        <li class="nav-item">
-                            <a href="#TicketsS1" class="nav-link" aria-current="page">Comprar Tickets</a>   
-                        </li>
+                    <ul>
+                        <li id="top-link"><a href="#Oradores">Los Oradores</a></li>
+                        <li id="top-link"><a href="#LugarFecha">El lugar y La fecha</a></li>
+                        <li id="top-link"><a href="#ConvertiteOrador">Convíertete en Orador</a></li>
+                        <li id="top-link"><a href="#TicketsS1">Comprar Tickets</a></li>
+                        <li id="top-link"><a href="#ConfBA">La Conferencia</a></li>
                     </ul>
             </div>
         </section>
@@ -183,7 +195,7 @@
                         <div class="card-body">
                             <p id="mt-0" class="card-text fw-bold" style="margin-bottom: 0px;"><span class="bg-secondary text-white small">&nbsp;Negocios&nbsp;</span>
                             <span class="bg-danger text-white small">&nbsp;Startups&nbsp;</span></p>
-                          <p  class="card-text fw-bold">Ada Loveloce</p>
+                          <p class="card-text fw-bold">Ada Loveloce</p>
                           <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</h6>
                         </div>
                       </div>
@@ -238,6 +250,7 @@
         <footer>
             <div class="container">
                 <div class="row mt-4">
+<<<<<<< HEAD
                     <div class="col fotr-prop">
                         <a id="btm-link" class="btn text-white" href="#PreguntasFrecuente" role="button">Preguntas<br>Frecuentes &nbsp;</a>
                         <a id="btm-link" class="btn text-white" href="#Contactanos" role="button">Contáctanos</a>
@@ -246,6 +259,16 @@
                         <a id="btm-link" class="btn text-white" href="#TerminosCondiciones" role="button">Términos y<br>Condiciones</a>
                         <a id="btm-link" class="btn text-white" href="#Privacidad" role="button">Privacidad</a>
                         <a id="btm-link" class="btn text-white" href="#Estudiantes" role="button">Estudiantes</a>
+=======
+                    <div class="col card-footer fotr-prop">
+                        <a class="btn text-white font-size 5px" href="#PreguntasFrecuente">Preguntas<br>Frecuentes &nbsp;</a>
+                        <a class="btn text-white" href="#Contactanos" role="button">Contáctanos</a>
+                        <a class="btn text-white" href="#Prensa" role="button">Prensa</a>
+                        <a class="btn text-white" href="#Conferencias" role="button">Conferencias</a>
+                        <a class="btn text-white" href="#TerminosCondiciones" role="button">Términos y<br>Condiciones</a>
+                        <a class="btn text-white" href="#Privacidad" role="button">Privacidad</a>
+                        <a class="btn text-white" href="#Estudiantes" role="button">Estudiantes</a>
+>>>>>>> 7884bfeaa30f966f814b03948c24c0ffa86c253f
                     </div>
                 </div>
             </div>
