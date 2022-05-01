@@ -1,3 +1,5 @@
+/* 1- Estilos utilizados para el ncabezado, logo y menú del evento*/
+
 .nav{
     background-color: rgb(53,58,64);
     margin: auto;
@@ -39,7 +41,9 @@ li{
     padding: 20px;
     font-size: 16px;
     min-height: 20px;
-} 
+}
+
+/*2- Estilos utilizados para la imagen de fondo, el encabezado y texto promocional */
 
 .ba-img{
     background-image: url(./img/ba1.jpg);
@@ -59,9 +63,13 @@ li{
     text-align-last: right;
 }
 
+/* 3- Estilo utilizado para el anuncio de los oradores */
+
 .titulo{
     text-align: center;
 }
+
+/* 4- Estilo utilizado para la sección dedicad a los que deseen postularse como oradores*/
 
 #TituloCharla{
     text-decoration-color: dimgray;
@@ -71,11 +79,15 @@ li{
     background-color: rgb(150,201,62);
 }
 
-.card-footer{
+/* 5- Estilo utilizado en el pie de página con links a tópicos generales*/
+
+footer{
     background-image: linear-gradient(to right, rgb(24,54,68), rgb(28,83,114));
     text-align-last: center;
     text-decoration: none;
     display: block;
+    font-size: 12px;
+    padding: 3px;
 }
 
 

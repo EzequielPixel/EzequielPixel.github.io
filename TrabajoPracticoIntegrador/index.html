@@ -15,7 +15,7 @@
 </head>
 <body>
     <main>
-        <!--Encabezado, logo del evento y menú-->
+        <!-- 1- Encabezado, logo y menú del evento -->
         <header>
             <section class="container">
                 <div class="row">
@@ -27,15 +27,16 @@
                                 <li><a id="top-link" href="#LugarFecha">El lugar y La fecha</a></li>
                                 <li><a id="top-link" href="#Oradores">Los Oradores</a></li>                                
                                 <li><a id="top-link" href="#ConfBA">La Conferencia</a></li>
-                                <li><a class="navbar-brand"><img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
+                                <li><a class="navbar-brand img-fluid"><img src="./img/codoacodo.png" alt="Codo a Codo Logo" width="120" height="70">
                                     <span style="font-size: 25px;">Conf Bs AS</span></a>
                                 </li>
                             </ul>
                         </div>  
                     </div>
                 </div>
-        <!--Imagen de fondo del encabezado y texto promocional-->
-                <div class="ba-img"></div>
+        <!-- 2-Imagen de fondo del encabezado y texto promocional-->
+
+                <div class="ba-img img-fluid"></div>
                 <div class="TextoSobreImagen">
                     <h1>Conf Bs As</h1> 
                     <h6>Bs As llega por primera vez a Argentina. Un evento para compartir con</h6>
@@ -49,7 +50,7 @@
             </section>
         </header>
 
-        <!--Anuncio de los Oradores-->
+        <!-- 3- Anuncio de los Oradores-->
         <section class="titulo">
             <br>
             <span>CONOCE A LOS</span>
@@ -57,12 +58,12 @@
             <br>
         </section>
 
-        <!--Imagenes de los oradores con sus nombres, y descripción sobre la temátia de la exponencia-->
+        <!-- 4- Imagenes de los oradores con sus nombres, y descripción sobre la temátia de la exponencia-->
         <section class="container">
             <div class="row justify-content-center">
                 <div class="col-3">
                     <div class="card">
-                        <img src="./img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                        <img src="./img/steve.jpg" class="card-img-top img-fluid" alt="Steve Jobs">
                         <div class="card-body">
                           <p class="card-text fw-bold"  style="margin-bottom: 0px;"><span class="bg-warning small">&nbsp;JavaScript&nbsp;</span>
                           <span class="bg-success text-white small">&nbsp;React&nbsp;</span></p>
@@ -96,7 +97,8 @@
             </div>
         </section>
 
-        <!--Imagen y texto promocional y/o informativo sobre la locación de la exponencia-->
+        <!-- 5- Imagen y texto promocional y/o informativo sobre la locación de la exponencia-->
+
         <section class="conteiner">
             <div class="row mt-3 justify-content-center g-1">
                 <div class="col-4">
@@ -114,7 +116,8 @@
             </div>
         </section>
         
-        <!--Sección dedicad a los que deseen postularse como oradores-->
+        <!-- 6- Sección dedicad a los que deseen postularse como oradores-->
+
         <section class="conteiner">
             <div class="row">
                 <div class="col-md-4 mx-auto text-center">
@@ -136,30 +139,26 @@
                         <label for="TituloCharla" class="form-label text-muted">Recuerda incluir un título para tu charla</label>
                     </div>
                         
-                    <div class="col mx-auto mt-4 d-grid" id="light-green">
-                        <button class="btn text-white" type="submit">Enviar</button>
+                    <div class="col mx-auto mt-2 d-grid" id="light-green">
+                        <button class="btn text-white" type="submit" value="submit">Enviar</button>
                     </div>
                 </div>
             </div>  
         </section>
 
-        <!--Pie de página con links a tópicos generales-->
-        <footer>
-           <div class="container mt-4">
-                 <!--<div class="row mt-4">
-                    <div class="col card-footer fotr-prop">-->
-                    <div class="card-footer fotr-prop">
-                        <a class="btn text-white font-size 5px" href="#PreguntasFrecuente">Preguntas<br>Frecuentes</a>
-                        <a class="btn text-white" href="#Contactanos">Contáctanos</a>
-                        <a class="btn text-white" href="#Prensa">Prensa</a>
-                        <a class="btn text-white" href="#Conferencias">Conferencias</a>
-                        <a class="btn text-white" href="#TerminosCondiciones">Términos y<br>Condiciones</a>
-                        <a class="btn text-white" href="#Privacidad">Privacidad</a>
-                        <a class="btn text-white" href="#Estudiantes">Estudiantes</a>
-                    </div>
-                <!--</div>-->
-            </div>
-        </footer>
+        <!-- 7- Cierre: Pie de página con links a tópicos generales-->
+        <div class="container mt-4">
+            <footer>
+                    <a class="btn text-white" href="#PreguntasFrecuente" role="button">Preguntas<br>Frecuentes</a>
+                    <a class="btn text-white" href="#Contactanos" role="button">Contáctanos</a>
+                    <a class="btn text-white" href="#Prensa" role="button">Prensa</a>
+                    <a class="btn text-white" href="#Conferencias" role="button">Conferencias</a>
+                    <a class="btn text-white" href="#TerminosCondiciones" role="button">Términos y<br>Condiciones</a>
+                    <a class="btn text-white" href="#Privacidad" role="button">Privacidad2</a>
+                    <a class="btn text-white" href="#Estudiantes" role="button">Estudiantes</a>
+            </footer>
+        </div>
+        
     </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
